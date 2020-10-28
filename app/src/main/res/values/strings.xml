@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">LoadEase</string>
+
+    <string name="move_arround">Move around quickly</string>
+
+
+    <string name="welcome_loadease">Welcome to LoadEase</string>
+    <string name="sign_in">Sign in</string>
+
 </resources>
