@@ -32,6 +32,7 @@
         android:textColor="@color/lightgray"/>
 
 <LinearLayout
+    android:id="@+id/sign_in"
     android:layout_width="match_parent"
     android:layout_height="0dp"
     android:layout_marginTop="30dp"
@@ -91,6 +92,7 @@
             android:gravity="center">
 
             <TextView
+                android:id="@+id/sign_up"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Sign Up"
@@ -113,20 +115,20 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.3"/>
+        android:layout_weight="0.4"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1.2"
+        android:layout_weight="1.1"
         android:orientation="horizontal"
         android:weightSum="4">
 
     <LinearLayout
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_weight="2"
+        android:layout_weight="1"
         tools:ignore="NestedWeights">
 
 
@@ -152,6 +154,8 @@
             >
 
             <ImageView
+
+                android:id="@+id/facebook_img"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@drawable/facebook_imge"/>
@@ -171,6 +175,7 @@
             >
 
             <ImageView
+                android:id="@+id/twitter_img"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@drawable/twitter_img"/>
@@ -191,6 +196,7 @@
             >
 
             <ImageView
+                android:id="@+id/google_img"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
                 android:src="@drawable/google_img"/>

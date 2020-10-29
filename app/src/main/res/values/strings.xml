@@ -7,4 +7,10 @@
     <string name="welcome_loadease">Welcome to LoadEase</string>
     <string name="sign_in">Sign in</string>
 
+
+    <string name="Save">Save</string>
+    <string name="email">Email*</string>
+    <string name="name">Name</string>
+    <string name="profile">Profile</string>
+
 </resources>
