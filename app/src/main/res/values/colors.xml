@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="lightgray">#03528B</color>
+
+
+    <color name="hint_color">#5C03528B</color>
 </resources>

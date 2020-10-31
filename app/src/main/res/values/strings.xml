@@ -12,5 +12,28 @@
     <string name="email">Email*</string>
     <string name="name">Name</string>
     <string name="profile">Profile</string>
+    <string name="welcome_back_to_loadease">Welcome back to LoadEase</string>
+    <string name="keep_me_on_logged_in">Keep me on logged in</string>
+    <string name="standard_charges_may_apply">Standard charges may apply</string>
+    <string name="phone_no">Phone no</string>
+    <string name="industry">Industry</string>
+    <string name="get_started_with_loadease">Get started with LoadEase</string>
+    <string name="phone_Number">Phone Number</string>
+    <string name="sign_Up">Sign up</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="_1050_00">1050.00</string>
+    <string name="_4111_5222_6451_1287"> 4111 5222 6451 1287</string>
+    <string name="todo">TODO</string>
+    <string name="wallet">Wallet</string>
+    <string name="add_card">Add Card</string>
+    <string name="enter_card_number">Enter Card Number</string>
+    <string name="expiry_date">Expiry Date</string>
+    <string name="mm_yy">MM / YY</string>
+    <string name="cvc">CVC</string>
+    <string name="_3_4_digits">3/4 Digits</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="mr_usama">Mr.usama</string>
+    <string name="add_card">Add Card</string>
 
 </resources>

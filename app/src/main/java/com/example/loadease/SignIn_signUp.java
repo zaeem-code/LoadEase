@@ -40,10 +40,10 @@ public class SignIn_signUp extends AppCompatActivity implements View.OnClickList
     public void onClick(View view) {
         int id = view.getId();
         if(id == R.id.sign_in){
-            Intent intent = new Intent(this,MainActivity.class);
+            Intent intent = new Intent(this,SignInActivity.class);
             startActivity(intent);
         }else if (id == R.id.sign_up){
-            Intent signUp = new Intent(this,SignUpActivity.class);
+            Intent signUp = new Intent(this, ProfileActivity.class);
             startActivity(signUp);
         }
     }
