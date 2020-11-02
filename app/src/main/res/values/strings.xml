@@ -7,6 +7,8 @@
     <string name="welcome_loadease">Welcome to LoadEase</string>
     <string name="sign_in">Sign in</string>
 
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="Save">Save</string>
     <string name="email">Email*</string>
@@ -25,8 +27,8 @@
     <string name="_1050_00">1050.00</string>
     <string name="_4111_5222_6451_1287"> 4111 5222 6451 1287</string>
     <string name="todo">TODO</string>
+    <string name="google_direction_api">AIzaSyCFMRJrFq6OajUBDKd42R3t783B0-Rbzdg</string>
     <string name="wallet">Wallet</string>
-    <string name="add_card">Add Card</string>
     <string name="enter_card_number">Enter Card Number</string>
     <string name="expiry_date">Expiry Date</string>
     <string name="mm_yy">MM / YY</string>
