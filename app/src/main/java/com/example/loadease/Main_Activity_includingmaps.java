@@ -78,6 +78,7 @@ public class Main_Activity_includingmaps extends AppCompatActivity implements On
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         Toolbar toolbar = (Toolbar) findViewById(R.id.tool);
         setSupportActionBar(toolbar);
+        //l
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar,R.string.navigation_drawer_open,
