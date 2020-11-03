@@ -25,6 +25,7 @@ public class SplashActivity extends AppCompatActivity {
                     finish();
                 } catch (Exception e) {
                 }
+//                etef
             }
         };
         // start thread
