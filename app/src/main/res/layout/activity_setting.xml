@@ -185,6 +185,7 @@
         android:maxLines="1"
         android:inputType="phone"
 
+
         android:layout_marginHorizontal="10dp"
         android:id="@+id/country_code"
         android:gravity="center"
