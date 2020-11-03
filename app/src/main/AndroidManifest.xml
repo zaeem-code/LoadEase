@@ -4,27 +4,34 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:fullBackupContent="true"
         android:theme="@style/Theme.LoadEase">
-        <activity android:name=".WalletAct"
+        <activity android:name=".SettingActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         </activity>
         <activity
-            android:name=".SignUpActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:name=".WalletAct"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
         <activity
-            android:name=".SignInActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:name=".SignIn_signUp.SignUpActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity
+            android:name=".SignIn_signUp.SignInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
         <activity
             android:name=".ProfileActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
         <activity
-            android:name=".SignIn_signUp"
+            android:name=".SignIn_signUp.SignIn_signUp"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".SplashActivity"

@@ -27,7 +27,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
 dependencies {
 
     implementation 'androidx.appcompat:appcompat:1.2.0'
@@ -40,4 +39,10 @@ dependencies {
     implementation 'com.github.joielechong:countrycodepicker:2.4.2'
 
 
+    implementation 'com.google.firebase:firebase-auth:20.0.0'
+    implementation 'com.google.firebase:firebase-analytics:18.0.0'
+
+
+    implementation 'com.google.firebase:firebase-database:19.5.1'
 }
+apply plugin: 'com.google.gms.google-services'

@@ -1,4 +1,4 @@
-package com.example.loadease;
+package com.example.loadease.SignIn_signUp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import com.example.loadease.ProfileActivity;
+import com.example.loadease.R;
+import com.example.loadease.SettingActivity;
 
 public class SignIn_signUp extends AppCompatActivity implements View.OnClickListener {
 
@@ -33,7 +37,6 @@ public class SignIn_signUp extends AppCompatActivity implements View.OnClickList
         google = findViewById(R.id.google_img);
         google.setOnClickListener(this);
 
-
     }
 
     @Override
@@ -43,7 +46,7 @@ public class SignIn_signUp extends AppCompatActivity implements View.OnClickList
             Intent intent = new Intent(this,SignInActivity.class);
             startActivity(intent);
         }else if (id == R.id.sign_up){
-            Intent signUp = new Intent(this, ProfileActivity.class);
+            Intent signUp = new Intent(this, SettingActivity.class);
             startActivity(signUp);
         }
     }

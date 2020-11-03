@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "104252116964",
+    "firebase_url": "https://loadease-791c2.firebaseio.com",
+    "project_id": "loadease-791c2",
+    "storage_bucket": "loadease-791c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104252116964:android:157bf9905335053f05c1f1",
+        "android_client_info": {
+          "package_name": "com.example.loadease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104252116964-e2nvbk3rs62og5qa9rkpdi2bbcmog1u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRC7VKDQ5EkscuBrEpSLRDpCboOm3_Qq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "104252116964-e2nvbk3rs62og5qa9rkpdi2bbcmog1u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,7 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
+
+import com.example.loadease.SignIn_signUp.SignIn_signUp;
 
 public class SplashActivity extends AppCompatActivity {
 
