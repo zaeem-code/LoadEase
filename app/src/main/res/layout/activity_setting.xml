@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:weightSum="4"
     android:background="@drawable/bg_signup"
-    tools:context=".ProfileActivity">
+    >
 
     <Space
         android:layout_width="wrap_content"

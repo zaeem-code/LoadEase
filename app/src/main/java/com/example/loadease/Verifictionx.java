@@ -1,5 +1,6 @@
 package com.example.loadease;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -9,10 +10,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.loadeasex.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.snackbar.Snackbar;
@@ -31,8 +35,9 @@ import java.util.concurrent.TimeUnit;
 public class Verifictionx extends AppCompatActivity implements View.OnClickListener {
     EditText e1,e2,e3,e4,e5,e6;
     String c1,c2,c3,c4,c5,c6,phone,pass,username,email;
-    Button verifybtn;
+    LinearLayout verifybtn;
     String check="s";
+    LinearLayout sign_up;
     LinearLayout linearLayour;
     Bundle bundle;
     ProgressDialog progressDialog;
@@ -42,9 +47,8 @@ public class Verifictionx extends AppCompatActivity implements View.OnClickListe
 
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_verification);
+        setContentView(R.layout.activity_o_t_p);
 
-        linearLayour=findViewById(R.id.l1);
         e1=findViewById(R.id.eone);
         e2=findViewById(R.id.etwo);
         e3=findViewById(R.id.ethree);
@@ -52,6 +56,8 @@ public class Verifictionx extends AppCompatActivity implements View.OnClickListe
         e5=findViewById(R.id.efive);
         e6=findViewById(R.id.esix);
         verifybtn=findViewById(R.id.verifybtn); verifybtn.setOnClickListener(this);
+
+        sign_up = findViewById(R.id.sign_up); sign_up.setOnClickListener(this);
 
         progressDialog=new ProgressDialog(this);
         progressDialog.setMessage("verifying...");
@@ -227,6 +233,9 @@ public class Verifictionx extends AppCompatActivity implements View.OnClickListe
                 gettingcode();
                 break;
 
+            case R.id.sign_up:
+                startActivity(new Intent(getApplicationContext(),SignUpActivity.class));
+                break;
         }
     }
     public void gettingcode(){

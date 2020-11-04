@@ -147,101 +147,147 @@
 
         </LinearLayout>
 
-
-        <LinearLayout
+        <Space
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.5"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_weight="0.5"/>
 
 
-        <EditText
-            android:id="@+id/edone"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:inputType="number"
-            android:imeOptions="actionNext"
-            android:importantForAutofill="no"
-            android:maxLength="1"
-            android:textColor="@color/lightgray"
-            android:layout_gravity="bottom"
-            android:gravity="center"
-            android:backgroundTint="@color/ed_color"
-            tools:targetApi="lollipop" />
+        <LinearLayout
+            android:layout_marginHorizontal="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".7"
+            android:weightSum=".6"
+            android:background="@android:color/transparent">
+
 
             <EditText
-                android:id="@+id/edtwo"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:inputType="number"
-                android:gravity="center"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
+                android:inputType="numberPassword"
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/eone"
+                android:elevation="2dp"
                 android:maxLength="1"
-                android:textColor="@color/lightgray"
-                android:backgroundTint="@color/ed_color"
-                tools:targetApi="lollipop"
-                android:layout_gravity="bottom"
-                />
-            <EditText
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:id="@+id/edthree"
-                android:inputType="number"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:maxLength="1"
-                android:gravity="center"
-                android:textColor="@color/lightgray"
-                android:backgroundTint="@color/ed_color"
-                tools:targetApi="lollipop"
-                android:layout_gravity="bottom"
-                />
-            <EditText
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:backgroundTint="@color/ed_color"
-                tools:targetApi="lollipop"
-                android:gravity="center"
-                android:inputType="number"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:maxLength="1"
-                android:textColor="@color/lightgray"
-                android:layout_gravity="bottom"
-                android:id="@+id/edfour"
-                />
-            <EditText
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:backgroundTint="@color/ed_color"
-                tools:targetApi="lollipop"
-                android:gravity="center"
-                android:inputType="number"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:maxLength="1"
-                android:textColor="@color/lightgray"
-                android:id="@+id/edfive"
-                android:layout_gravity="bottom"
-                />
-            <EditText
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:inputType="number"
-                android:gravity="center"
-                android:imeOptions="actionNext"
-                android:importantForAutofill="no"
-                android:maxLength="1"
-                android:textColor="@color/lightgray"
-                android:backgroundTint="@color/ed_color"
-                tools:targetApi="lollipop"
-                android:id="@+id/edsix"
-                android:layout_gravity="bottom"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
                 />
 
-</LinearLayout>
+
+            <EditText
+                android:id="@+id/etwo"
+                android:inputType="numberPassword"
+                android:layout_marginHorizontal="5dp"
+                android:elevation="2dp"
+                android:maxLength="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+
+
+            <EditText
+                android:inputType="numberPassword"
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/ethree"
+                android:elevation="2dp"
+                android:maxLength="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+
+
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/efour"
+                android:layout_marginHorizontal="5dp"
+                android:elevation="2dp"
+                android:layout_width="0dp"
+                android:maxLength="1"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+
+
+            <EditText
+                android:inputType="numberPassword"
+                android:id="@+id/efive"
+                android:elevation="2dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_width="0dp"
+                android:maxLength="1"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+
+
+            <EditText
+                android:inputType="numberPassword"
+                android:layout_marginHorizontal="5dp"
+                android:id="@+id/esix"
+                android:elevation="2dp"
+                android:maxLength="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".1"
+                android:hint="*"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:autoSizeMaxTextSize="20sp"
+                android:autoSizeMinTextSize="10sp"
+                android:autoSizeTextType="uniform"
+                android:textStyle="bold"
+                android:gravity="center_horizontal" />
+
+
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"/>
 
 
         <LinearLayout
@@ -277,13 +323,13 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/sign_up"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0.9"
                 android:gravity="center">
 
                 <TextView
-                    android:id="@+id/sign_up"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Sign Up"
@@ -317,7 +363,9 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/verify"
+
+        android:clickable="true"
+        android:id="@+id/verifybtn"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginHorizontal="60dp"

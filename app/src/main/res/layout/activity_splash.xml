@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:background="@color/white"
     android:weightSum="3"
-    tools:context=".SplashActivity">
+    >
 
 
     <LinearLayout
