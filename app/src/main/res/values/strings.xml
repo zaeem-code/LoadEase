@@ -33,9 +33,12 @@
     <string name="expiry_date">Expiry Date</string>
     <string name="mm_yy">MM / YY</string>
     <string name="cvc">CVC</string>
-    <string name="_3_4_digits">3/4 Digits</string>
+    <string name="_3_4_digits"> 3/4 Digits</string>
     <string name="cardholder_name">Cardholder Name</string>
     <string name="mr_usama">Mr.usama</string>
-    <string name="add_card">Add Card</string>
+    <string name="don_t_have_an_account">Dont have an Account ?</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
 
 </resources>

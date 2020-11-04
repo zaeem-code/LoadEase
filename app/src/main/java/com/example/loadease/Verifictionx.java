@@ -1,4 +1,4 @@
-package com.example.loadeasex;
+package com.example.loadease;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.text.Editable;
@@ -32,7 +32,7 @@ public class Verifictionx extends AppCompatActivity implements View.OnClickListe
     EditText e1,e2,e3,e4,e5,e6;
     String c1,c2,c3,c4,c5,c6,phone,pass,username,email;
     Button verifybtn;
-    String check="";
+    String check="s";
     LinearLayout linearLayour;
     Bundle bundle;
     ProgressDialog progressDialog;
