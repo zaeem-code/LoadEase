@@ -1,4 +1,4 @@
-package com.example.loadeasex;
+package com.example.loadease;
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;

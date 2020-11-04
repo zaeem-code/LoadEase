@@ -1,4 +1,4 @@
-package com.example.loadeasex;
+package com.example.loadease;
 
 import android.content.Context;
 
