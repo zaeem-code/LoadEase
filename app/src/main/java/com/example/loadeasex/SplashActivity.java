@@ -1,10 +1,9 @@
-package com.example.loadease;
+package com.example.loadeasex;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.SystemClock;
 
 public class SplashActivity extends AppCompatActivity {
 

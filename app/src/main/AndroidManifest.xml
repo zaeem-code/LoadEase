@@ -1,53 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.loadease">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.loadeasex">
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:fullBackupContent="true"
         android:theme="@style/Theme.LoadEase">
-
-
-
-
-        <!--Google MAP API key-->
-
+        <!-- Google MAP API key -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/google_maps_key" />
-        <activity android:name=".WalletAct"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
-
-
-        </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.example.loadeasex.WalletAct"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
         <activity
-            android:name=".SignInActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity
-            android:name=".ProfileActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity
-            android:name=".SignIn_signUp"
+            android:name="com.example.loadeasex.SignUpActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".Main_Activity_includingmaps"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            android:name="com.example.loadeasex.SignInActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.loadeasex.ProfileActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.loadeasex.SignIn_signUp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name="com.example.loadeasex.Verifictionx"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashActivity" />
+        <activity android:name="com.example.loadeasex.SplashActivity" />
     </application>
 
 </manifest>

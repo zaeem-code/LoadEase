@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "466442834103",
+    "firebase_url": "https://xxxxx-21eea.firebaseio.com",
+    "project_id": "xxxxx-21eea",
+    "storage_bucket": "xxxxx-21eea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466442834103:android:75b420bd71db495fdcbd32",
+        "android_client_info": {
+          "package_name": "com.example.loadeasex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466442834103-13f678po85h1ll89jbcjkusb1oklvr37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMCDPg7J4JQbJxn8kE2T3nBZ9VhdGm2MY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466442834103-13f678po85h1ll89jbcjkusb1oklvr37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

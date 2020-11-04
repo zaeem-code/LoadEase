@@ -1,4 +1,4 @@
-package com.example.loadease;
+package com.example.loadeasex;
 
 import org.junit.Test;
 
