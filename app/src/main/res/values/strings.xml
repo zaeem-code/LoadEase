@@ -46,5 +46,7 @@
     <string name="loadease_require_your_name_email_and_cell_phone_number">LoadEase require your name,email and cell phone number</string>
     <string name="please_proide_these_details_for_a_better_experience_and_get_notification">Please proide these details for a better experience and get notification</string>
     <string name="password">Password</string>
+    <string name="didn_t_receive_code">Didn\'t receive code?</string>
+    <string name="resend">Resend</string>
 
 </resources>
