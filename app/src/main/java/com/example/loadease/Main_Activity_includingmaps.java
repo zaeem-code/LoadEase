@@ -14,6 +14,7 @@ import android.os.Looper;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import com.example.loadeasex.R;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationRequest;
@@ -41,7 +42,8 @@ public class Main_Activity_includingmaps extends AppCompatActivity implements On
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_drawer_main);
+        setContentView(
+                R.layout.activity_drawer_main);
         initViewsID();
         setupDrawer();
         setupmap();
