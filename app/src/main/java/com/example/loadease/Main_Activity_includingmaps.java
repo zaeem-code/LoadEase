@@ -30,7 +30,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 
 
 public class Main_Activity_includingmaps extends AppCompatActivity implements OnMapReadyCallback, OnClickListener {
-
+//ll
     SupportMapFragment mapFragment;
     private GoogleMap googleMap;
     private FusedLocationProviderClient mFusedLocationClient;
